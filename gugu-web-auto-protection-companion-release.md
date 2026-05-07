@@ -1,10 +1,10 @@
 # Web Auto Protection Companion Release
 
-- generated_at: `2026-05-07T08:08:19Z`
+- generated_at: `2026-05-07T21:13:09Z`
 - raw_main_url: `https://raw.githubusercontent.com/Beonjida/gugu_filter/main/gugu-web-auto-protection-companion.txt`
-- sha256: `72b05a37d578c387c267702dc7f9cc745a7746dab98ee19e6cd9eda507c7c193`
-- size_bytes: `21296`
-- total_lines: `183`
-- network_rules: `113`
-- cosmetic_rules: `41`
+- sha256: `6e7765840a88f8ca90a8a6525f22c1155ea0011c7a3029defef71c6961140323`
+- size_bytes: `24175`
+- total_lines: `251`
+- network_rules: `140`
+- cosmetic_rules: `82`
 - license: `Gugu Companion Filter License v1.0`
