@@ -1,0 +1,183 @@
+! Title: Gugu Web Auto Protection Companion
+! Description: First-party companion list tuned for Gugu Web Auto Protection runtime assists.
+! Homepage: https://github.com/Beonjida/gugu/tree/main/filter-lists
+! Version: generated-from-registry
+! Expires: 6 hours
+! Last Modified: generated-from-repo
+! License: Proprietary first-party curated list (Gugu)
+!
+! Purpose:
+! - Use together with Gugu Web Auto Protection for stronger network + slot cleanup coverage.
+! - Generated from first-party endpoint and Korean coverage registries to reduce drift.
+! - Prefer high-confidence ad delivery endpoints and host-scoped slot selectors only.
+
+! === Network (third-party ad delivery endpoints) ===
+! -- Google AdManager / GPT / AdSense (10)
+||adservice.google.co.kr^$third-party
+||adservice.google.com^$third-party
+||googleads.g.doubleclick.net^$third-party
+||googlesyndication.com^$third-party
+||googletagservices.com^$third-party
+||partner.googleadservices.com^$third-party
+||pubads.g.doubleclick.net^$third-party
+||securepubads.g.doubleclick.net^$third-party
+||securepubads.g.doubleclick.net/tag/js/gpt.js$third-party
+||tpc.googlesyndication.com^$third-party
+
+! -- Native Ad Networks (18)
+||assets.revcontent.com^$third-party
+||bidder.criteo.com^$third-party
+||cdn.taboola.com^$third-party
+||native.sharethrough.com^$third-party
+||nativery.com^$third-party
+||recopick.com/widget$third-party
+||servicer.mgid.com^$third-party
+||ssp.sharethrough.com^$third-party
+||stat.dable.io^$third-party
+||static.criteo.com^$third-party
+||static.criteo.net^$third-party
+||static.dable.io^$third-party
+||static.ligatus.com^$third-party
+||static.mgid.com^$third-party
+||static.recopick.com^$third-party
+||trc.taboola.com^$third-party
+||trends.revcontent.com^$third-party
+||widgets.outbrain.com^$third-party
+
+! -- Header Bidders / SSP (13)
+||33across.com^$third-party
+||acdn.adnxs.com^$third-party
+||apstag.amazon-adsystem.com^$third-party
+||c.amazon-adsystem.com^$third-party
+||casalemedia.com^$third-party
+||ib.adnxs.com^$third-party
+||indexexchange.com^$third-party
+||lijit.com^$third-party
+||magnite.com^$third-party
+||openx.com^$third-party
+||openx.net^$third-party
+||pubmatic.com^$third-party
+||rubiconproject.com^$third-party
+
+! -- Video Ad / Measurement (4)
+||cdn.flashtalking.com^$third-party
+||flashtalking.com^$third-party
+||imasdk.googleapis.com^$third-party
+||static.adsafeprotected.com^$third-party
+
+! -- Korean Display Networks (41)
+||acrosspf.com^$third-party
+||ad-dev.3dpop.kr^$third-party
+||ad.3dpop.kr^$third-party
+||ad.about.co.kr^$third-party
+||ad.adbiz.daum.net^$third-party
+||ad.admine.co.kr^$third-party
+||ad.adnmore.co.kr^$third-party
+||ad.ajitad.co.kr^$third-party
+||ad.mbn.co.kr^$third-party
+||ad.mediamixer.co.kr^$third-party
+||ad.syncad.kr^$third-party
+||ad.xc.netinsight.co.kr^$third-party
+||ad4989.co.kr^$third-party
+||ader.naver.com^$third-party
+||adfork.co.kr^$third-party
+||adimg.daumcdn.net^$third-party
+||adn.naver.com^$third-party
+||ads-partners.coupang.com^$third-party
+||ads.kmib.co.kr^$third-party
+||ads.quasarzone.com^$third-party
+||adshub.kr^$third-party
+||advimg.ad-mapps.com^$third-party
+||adwiser.kr^$third-party
+||cyycoy.com^$third-party
+||display.ad.daum.net^$third-party
+||display.adfit.daum.net^$third-party
+||display.kakao.com/v2/api/ad$third-party
+||feeldmc.com^$third-party
+||finead.o00.kr^$third-party
+||kitweb.tadapi.info^$third-party
+||linkback.contentsfeed.com^$third-party
+||nsmartad.com^$third-party
+||optad360.io^$third-party
+||partners.coupang.com^$third-party
+||priel.co.kr^$third-party
+||pstatic.net/adimg3.search/adpost$third-party
+||searchad.naver.com^$third-party
+||siape.veta.naver.com^$third-party
+||t1.daumcdn.net/adfit$third-party
+||white.contentsfeed.com^$third-party
+||zicf.inven.co.kr^$third-party
+
+! -- Other Observed Ad Endpoints (27)
+||ad.aceplanet.co.kr^$third-party
+||ad.ad4989.co.kr^$third-party
+||ad.adinc.kr^$third-party
+||ad.adjw.co.kr^$third-party
+||ad.cyycoy.com^$third-party
+||ad.danawa.com^$third-party
+||ad.reople.co.kr^$third-party
+||adapi.feeldmc.com^$third-party
+||adf.acrosspf.com^$third-party
+||ads.mtgroup.kr^$third-party
+||adservice.hani.co.kr^$third-party
+||adv.imadrep.co.kr^$third-party
+||adv.khan.co.kr^$third-party
+||adv.zdnet.co.kr^$third-party
+||cdn.adscope.co.kr^$third-party
+||cdn.adshub.kr^$third-party
+||compass.adop.cc^$third-party
+||content-loader.com^$third-party
+||css-load.com^$third-party
+||cyad1.nate.com^$third-party
+||dynamic.criteo.com^$third-party
+||html-load.com^$third-party
+||js.admaru.com^$third-party
+||networkad.nate.com^$third-party
+||next.adfork.co.kr^$third-party
+||pagead2.googlesyndication.com^$third-party
+||tracker.adbinead.com^$third-party
+
+! === Host-scoped cosmetic (coverage-matrix communities/news/wiki) ===
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr##[id^="google_ads_iframe_"]
+m.ppomppu.co.kr,m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##[id^="google_ads_iframe_"]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr,m.ppomppu.co.kr##[id^="div-gpt-ad-"]
+m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##[id^="div-gpt-ad-"]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr,m.ppomppu.co.kr##[id^="_googCsa"]
+m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##[id^="_googCsa"]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr##[data-google-query-id]
+m.ppomppu.co.kr,m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##[data-google-query-id]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr##[data-google-container-id]
+m.ppomppu.co.kr,m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##[data-google-container-id]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr,m.ppomppu.co.kr##[data-ad-slot]
+m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##[data-ad-slot]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr,m.ppomppu.co.kr##[data-ad-client]
+m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##[data-ad-client]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr,m.ppomppu.co.kr##[data-ad-unit]
+m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##[data-ad-unit]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr,m.ppomppu.co.kr##ins.adsbygoogle
+m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##ins.adsbygoogle
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr##iframe[src*="doubleclick.net"]
+m.ppomppu.co.kr,m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##iframe[src*="doubleclick.net"]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com##iframe[src*="googlesyndication.com"]
+m.inven.co.kr,m.ppomppu.co.kr,m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##iframe[src*="googlesyndication.com"]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr##iframe[title*="서드 파티 광고"]
+m.ppomppu.co.kr,m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##iframe[title*="서드 파티 광고"]
+82cook.com,aagag.com,ajunews.com,arca.live,bbs.ruliweb.com,bobaedream.co.kr,busan.com,cctoday.co.kr,chosun.com,clien.net,coolenjoy.net,damoang.net,dcinside.com,dispatch.co.kr,dogdrip.net,donga.com,dt.co.kr,dvdprime.com,edaily.co.kr,entertain.daum.net,entertain.naver.com,etnews.com,etoland.co.kr,extmovie.com,fmkorea.com,fnnews.com,gall.dcinside.com,gasengi.com,ggilbo.com,hani.co.kr,hankookilbo.com,hankyung.com,heraldcorp.com,humoruniv.com,hungryapp.co.kr,imaeil.com,instiz.net,inven.co.kr,isplus.com,jejunews.com,jjan.kr,jnilbo.com,joongang.co.kr,khan.co.kr,kookje.co.kr,kwangju.co.kr,kyeonggi.com,m.clien.net,m.dcinside.com,m.entertain.naver.com,m.inven.co.kr##iframe[aria-label*="광고"]
+m.ppomppu.co.kr,m.ruliweb.com,mania.kr,mbn.co.kr,mk.co.kr,mlbpark.donga.com,munhwa.com,namu.wiki,news.jtbc.co.kr,news.kbs.co.kr,news.kmib.co.kr,news.mt.co.kr,news.sbs.co.kr,news1.kr,newsen.com,newsis.com,nocutnews.co.kr,ohmynews.com,osen.co.kr,pgr21.com,ppomppu.co.kr,quasarzone.com,ruliweb.com,sedaily.com,segye.com,slrclub.com,sports.chosun.com,sports.daum.net,sports.news.naver.com,star.mt.co.kr,theqoo.net,todayhumor.co.kr,ulsanpress.net,xportsnews.com,ygosu.com,yna.co.kr,ytn.co.kr,zdnet.co.kr##iframe[aria-label*="광고"]
+
+! === Host-scoped cosmetic (auto-promoted opportunities) ===
+asiae.co.kr##[class*="service-list__banner"]
+bizwatch.co.kr,news.bizwatch.co.kr##[class*="ad_bizwatch_right"]
+bizwatch.co.kr,news.bizwatch.co.kr##[class*="ad_bizwatch_title"]
+bizwatch.co.kr,news.bizwatch.co.kr##[class*="bizwatch_ad"]
+bizwatch.co.kr,news.bizwatch.co.kr##[class*="float_ad"]
+bizwatch.co.kr,news.bizwatch.co.kr##[class*="luck_ad"]
+eye.seoul.co.kr,m.eye.seoul.co.kr,seoul.co.kr##[class*="m-banner-naver"]
+h21.hani.co.kr,hani.co.kr##[class*="ad-all"]
+h21.hani.co.kr,hani.co.kr##[class*="ad-pc"]
+khan.co.kr,lady.khan.co.kr##[id*="thumb_ad"]
+khan.co.kr,sports.khan.co.kr##[class*="ad-aside-bnr"]
+khan.co.kr,sports.khan.co.kr##[class*="ad-aside-btm-a"]
+megastudy.net##[class*="left_menu-banner"]
+megastudy.net##[id*="right__banner"]
+sisain.co.kr##[id*="fix-banner"]
