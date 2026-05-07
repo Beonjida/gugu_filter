@@ -5,7 +5,7 @@
 - filter: `gugu-web-auto-protection-companion.txt`
 - metadata: `gugu-web-auto-protection-companion-release.json`
 - latest: `gugu-web-auto-protection-companion-latest.json`
-- source commit: `135d83116971895c22629569ff8d39eff5ac97b7`
+- license: `Gugu Companion Filter License v1.0`
 
 구독 URL:
 

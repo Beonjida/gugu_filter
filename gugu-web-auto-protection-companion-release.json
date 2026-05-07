@@ -1,15 +1,13 @@
 {
-  "generatedAt": "2026-05-07T08:00:09Z",
-  "filterPath": "filter-lists/gugu-web-auto-protection-companion.txt",
-  "configPath": "filter-lists/gugu-web-auto-protection-companion.config.json",
+  "generatedAt": "2026-05-07T08:08:19Z",
   "metadata": {
     "title": "Gugu Web Auto Protection Companion",
     "description": "First-party companion list tuned for Gugu Web Auto Protection runtime assists.",
-    "homepage": "https://github.com/Beonjida/gugu/tree/main/filter-lists",
+    "homepage": "https://github.com/Beonjida/gugu_filter",
     "version": "generated-from-registry",
     "expires": "6 hours",
     "last modified": "generated-from-repo",
-    "license": "Proprietary first-party curated list (Gugu)"
+    "license": "Gugu Companion Filter License v1.0"
   },
   "ruleCounts": {
     "network": 113,
@@ -25,21 +23,10 @@
     "autoCosmeticHostScopedRules": 15
   },
   "checksum": {
-    "sha256": "594ff6a91dda566fef7c49f781998703fab3b0fdf8f880692964923232a0472d",
-    "bytes": 21321
+    "sha256": "72b05a37d578c387c267702dc7f9cc745a7746dab98ee19e6cd9eda507c7c193",
+    "bytes": 21296
   },
   "deployment": {
-    "commit": "135d83116971895c22629569ff8d39eff5ac97b7",
-    "rawMainURL": "https://raw.githubusercontent.com/Beonjida/gugu_filter/main/gugu-web-auto-protection-companion.txt",
-    "rawCommitURL": "https://raw.githubusercontent.com/Beonjida/gugu_filter/135d83116971895c22629569ff8d39eff5ac97b7/gugu-web-auto-protection-companion.txt"
-  },
-  "opportunityStats": {
-    "scannedSummaries": 74,
-    "networkCandidates": 39,
-    "cosmeticCandidates": 78,
-    "conservativeNetworkAutoCandidates": 39,
-    "conservativeCosmeticAutoCandidates": 0,
-    "aggressiveNetworkAutoCandidates": 39,
-    "aggressiveCosmeticAutoCandidates": 24
+    "rawMainURL": "https://raw.githubusercontent.com/Beonjida/gugu_filter/main/gugu-web-auto-protection-companion.txt"
   }
 }

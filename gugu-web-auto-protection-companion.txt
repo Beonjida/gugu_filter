@@ -1,10 +1,10 @@
 ! Title: Gugu Web Auto Protection Companion
 ! Description: First-party companion list tuned for Gugu Web Auto Protection runtime assists.
-! Homepage: https://github.com/Beonjida/gugu/tree/main/filter-lists
+! Homepage: https://github.com/Beonjida/gugu_filter
 ! Version: generated-from-registry
 ! Expires: 6 hours
 ! Last Modified: generated-from-repo
-! License: Proprietary first-party curated list (Gugu)
+! License: Gugu Companion Filter License v1.0
 !
 ! Purpose:
 ! - Use together with Gugu Web Auto Protection for stronger network + slot cleanup coverage.
