@@ -577,6 +577,8 @@ munhwa.com##[class*="top-banner-area"]
 mydaily.co.kr##[class*="art_mid_ad"]
 mydaily.co.kr##[class*="clean_banner"]
 mydaily.co.kr##[class*="wcms_banner"]
+namu.wiki##.power-lst
+namu.wiki##[class*="powerlink"]
 nate.com##[class*="bt_banner"]
 nate.com##[class*="main_banner"]
 nate.com##[class*="wrap_ad"]
