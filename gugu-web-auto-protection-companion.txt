@@ -237,6 +237,16 @@ busan.com##[class*="wcms_ad"]
 busan.go.kr##[class*="banner-link"]
 busan.go.kr##[class*="banner-slide"]
 busan.go.kr##[class*="main_banner_notice"]
+cafe.naver.com,m.cafe.naver.com###article_end_bottom
+cafe.naver.com,m.cafe.naver.com###article_end_profit_share
+cafe.naver.com,m.cafe.naver.com###cafe_main_profit_share
+cafe.naver.com,m.cafe.naver.com##.adtype_article
+cafe.naver.com,m.cafe.naver.com##.adtype_smart
+cafe.naver.com,m.cafe.naver.com##.ArticleSectionLoggerBannerTypeAdvert
+cafe.naver.com,m.cafe.naver.com##.banner_add.bottom
+cafe.naver.com,m.cafe.naver.com##a[href*="adcr.naver.com"]
+cafe.naver.com,m.cafe.naver.com##a[href*="ader.naver.com"]
+cafe.naver.com,m.cafe.naver.com##a[href*="m.searchad.naver.com"]
 chosun.com##.arcad-wrapper
 chosun.com##[class*="article-membership-banner"]
 chosun.com##[class*="floating-ad-close"]
@@ -244,6 +254,9 @@ chosun.com##[class*="mem--home-banner"]
 chosun.com##[class*="mem--home-banner__bar"]
 chosun.com##[class*="mobile-ad"]
 clien.net##[class*="menu-promo"]
+clien.net,m.clien.net###div-mw-list-center
+clien.net,m.clien.net###div-mw-main-center
+clien.net,m.clien.net###div-mw-main-top
 clien.net,m.clien.net###div-pc-list-below
 clien.net,m.clien.net###div-pc-list-top
 clien.net,m.clien.net###div-pc-side-1
@@ -253,6 +266,8 @@ clien.net,m.clien.net##.footer_ad
 clien.net,m.clien.net##.list_bottom_ad
 clien.net,m.clien.net##.modal_ad
 clien.net,m.clien.net##.modal_ad_content
+clien.net,m.clien.net##div[class$="_mid"]:has(> .ad_banner)
+clien.net,m.clien.net##div[class^="list_top_"]:has(> .ad_banner)
 clien.net,m.clien.net##iframe[id^="n_main_shop_"]
 coinpan.com##.adsbygoogle
 comic.naver.com##.banner_bar
@@ -286,6 +301,8 @@ danawa.com##[class*="section-ad"]
 danawa.com##[class*="text__ad"]
 danawa.com##[class*="ui-category-banner"]
 daum.net##.board_banner
+daum.net,m.daum.net##.box_adgoogle
+daum.net,m.daum.net##.kakao_ad_area
 daum.net,m.daum.net##[data-ad-unit]
 dcinside.com##[class*="ad_nv_slot"]
 dcinside.com##[class*="ad_powlink-tmpl"]
