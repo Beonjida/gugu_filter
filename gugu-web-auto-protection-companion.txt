@@ -482,6 +482,9 @@ inven.co.kr##[class*="list-search-bottom-ad"]
 inven.co.kr##[class*="party-banner"]
 inven.co.kr##[class*="rolling_it_banner"]
 inven.co.kr,m.inven.co.kr###comAdM320Bbs
+inven.co.kr,m.inven.co.kr###comAdM320View
+inven.co.kr,m.inven.co.kr###comAdM320ViewNet
+inven.co.kr,m.inven.co.kr###comAdM320x100contentMid
 inven.co.kr,m.inven.co.kr###mobileTailAd
 inven.co.kr,m.inven.co.kr###mobileTailAd_iframe
 inven.co.kr,m.inven.co.kr###mobileTailAd_Layer
@@ -491,6 +494,7 @@ inven.co.kr,m.inven.co.kr##.banner_box
 inven.co.kr,m.inven.co.kr##.mobileDaNs1
 inven.co.kr,m.inven.co.kr##.mobileDaNs2
 inven.co.kr,m.inven.co.kr##.mobileDaNsFloat
+inven.co.kr,m.inven.co.kr##.mobileTopAd
 inven.co.kr,m.inven.co.kr##section.mobile-ad
 itworld.co.kr##[class*="ad-article"]
 itworld.co.kr##[class*="ad-oc_ad_1"]
