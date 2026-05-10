@@ -256,18 +256,27 @@ clien.net##[class*="menu-promo"]
 clien.net,m.clien.net###div-mw-list-center
 clien.net,m.clien.net###div-mw-main-center
 clien.net,m.clien.net###div-mw-main-top
+clien.net,m.clien.net###div-mw-view-center
+clien.net,m.clien.net###div-mw-view-top
 clien.net,m.clien.net###div-pc-list-below
 clien.net,m.clien.net###div-pc-list-top
 clien.net,m.clien.net###div-pc-side-1
 clien.net,m.clien.net###div-pc-side-2
+clien.net,m.clien.net###hongboInfoList
 clien.net,m.clien.net##.btn_ad_close
 clien.net,m.clien.net##.footer_ad
 clien.net,m.clien.net##.list_bottom_ad
 clien.net,m.clien.net##.modal_ad
 clien.net,m.clien.net##.modal_ad_content
+clien.net,m.clien.net##.shop_naver
 clien.net,m.clien.net##div[class$="_mid"]
 clien.net,m.clien.net##div[class$="_mid"]:has(> .ad_banner)
+clien.net,m.clien.net##div[class^="list_center_"]
 clien.net,m.clien.net##div[class^="list_top_"]:has(> .ad_banner)
+clien.net,m.clien.net##div[class^="main_center_"]
+clien.net,m.clien.net##div[class^="main_top_"]
+clien.net,m.clien.net##div[class^="view_top_"]
+clien.net,m.clien.net##div[id^="n_main_shop_"]
 clien.net,m.clien.net##iframe[id^="n_main_shop_"]
 coinpan.com##.adsbygoogle
 comic.naver.com##.banner_bar
