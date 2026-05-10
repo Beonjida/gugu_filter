@@ -263,6 +263,7 @@ clien.net,m.clien.net##.footer_ad
 clien.net,m.clien.net##.list_bottom_ad
 clien.net,m.clien.net##.modal_ad
 clien.net,m.clien.net##.modal_ad_content
+clien.net,m.clien.net##div[class$="_mid"]
 clien.net,m.clien.net##div[class$="_mid"]:has(> .ad_banner)
 clien.net,m.clien.net##div[class^="list_top_"]:has(> .ad_banner)
 clien.net,m.clien.net##iframe[id^="n_main_shop_"]
@@ -480,6 +481,17 @@ inven.co.kr##[class*="inven-ad-bbs-subject"]
 inven.co.kr##[class*="list-search-bottom-ad"]
 inven.co.kr##[class*="party-banner"]
 inven.co.kr##[class*="rolling_it_banner"]
+inven.co.kr,m.inven.co.kr###comAdM320Bbs
+inven.co.kr,m.inven.co.kr###mobileTailAd
+inven.co.kr,m.inven.co.kr###mobileTailAd_iframe
+inven.co.kr,m.inven.co.kr###mobileTailAd_Layer
+inven.co.kr,m.inven.co.kr###mobileTailAd_LayerDummy
+inven.co.kr,m.inven.co.kr##.ad-wrap
+inven.co.kr,m.inven.co.kr##.banner_box
+inven.co.kr,m.inven.co.kr##.mobileDaNs1
+inven.co.kr,m.inven.co.kr##.mobileDaNs2
+inven.co.kr,m.inven.co.kr##.mobileDaNsFloat
+inven.co.kr,m.inven.co.kr##section.mobile-ad
 itworld.co.kr##[class*="ad-article"]
 itworld.co.kr##[class*="ad-oc_ad_1"]
 itworld.co.kr##[class*="ad-overlay"]
@@ -607,8 +619,6 @@ m.entertain.naver.com##[class*="AdBanner_ad_banner"]
 m.entertain.naver.com##[class*="AsideBanner_comp_aside_banner"]
 m.fmkorea.com##.fmad_wrapper
 m.humoruniv.com##[id^="naver_adpost_wrap"]
-m.inven.co.kr##.ad-wrap
-m.inven.co.kr##.banner_box
 m.mydaily.co.kr##[id^="ad-placeholder"]
 m.naver.com###HOME_AD
 m.naver.com###main_search_specialda_1
