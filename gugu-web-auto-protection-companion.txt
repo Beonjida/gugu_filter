@@ -108,7 +108,7 @@
 ||white.contentsfeed.com^$third-party
 ||zicf.inven.co.kr^$third-party
 
-! -- Other Observed Ad Endpoints (54)
+! -- Other Observed Ad Endpoints (56)
 ||a.teads.tv^$third-party
 ||ad.aceplanet.co.kr^$third-party
 ||ad.ad4989.co.kr^$third-party
@@ -140,6 +140,7 @@
 ||adv.zdnet.co.kr^$third-party
 ||analysis.adinsight.co.kr^$third-party
 ||api.dable.io^$third-party
+||cdn.admeshx.com^$third-party
 ||cdn.adscope.co.kr^$third-party
 ||cdn.adshub.kr^$third-party
 ||cdn.megadata.co.kr^$third-party
@@ -153,6 +154,7 @@
 ||get.optad360.io^$third-party
 ||html-load.com^$third-party
 ||js.admaru.com^$third-party
+||m.searchad.naver.com^$third-party
 ||media.adpnut.com^$third-party
 ||networkad.nate.com^$third-party
 ||news.adwiser.kr^$third-party
@@ -482,6 +484,7 @@ inven.co.kr##[class*="list-search-bottom-ad"]
 inven.co.kr##[class*="party-banner"]
 inven.co.kr##[class*="rolling_it_banner"]
 inven.co.kr,m.inven.co.kr###comAdM320Bbs
+inven.co.kr,m.inven.co.kr###comAdM320Float
 inven.co.kr,m.inven.co.kr###comAdM320View
 inven.co.kr,m.inven.co.kr###comAdM320ViewNet
 inven.co.kr,m.inven.co.kr###comAdM320x100contentMid
@@ -495,6 +498,7 @@ inven.co.kr,m.inven.co.kr##.mobileDaNs1
 inven.co.kr,m.inven.co.kr##.mobileDaNs2
 inven.co.kr,m.inven.co.kr##.mobileDaNsFloat
 inven.co.kr,m.inven.co.kr##.mobileTopAd
+inven.co.kr,m.inven.co.kr##iframe[name="comAdM320Float"]
 inven.co.kr,m.inven.co.kr##section.mobile-ad
 itworld.co.kr##[class*="ad-article"]
 itworld.co.kr##[class*="ad-oc_ad_1"]
