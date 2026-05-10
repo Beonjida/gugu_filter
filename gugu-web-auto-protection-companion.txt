@@ -297,12 +297,12 @@ dcinside.com##[class*="zzbang_ad"]
 dcinside.com,gall.dcinside.com##[id*="ad_nv_slot"]
 dcinside.com,gall.dcinside.com##[id*="ad_powlink-tmpl"]
 dcinside.com,gall.dcinside.com##[id*="ad_powlink_img-tmpl"]
+ddaily.co.kr##.wcms_banner
 ddaily.co.kr##[class*="art_mid_ad"]
 ddaily.co.kr##[class*="art_mid_ad1"]
 ddaily.co.kr##[class*="art_mid_ad2"]
 ddaily.co.kr##[class*="wcms_banner"]
 ddaily.co.kr,mydaily.co.kr##[class*="wcms_banner"]
-dispatch.co.kr##[class*="banner-button-area"]
 dispatch.co.kr##[class*="banner-carousel"]
 dispatch.co.kr##[class*="banner-carousel-wrapper"]
 dispatch.co.kr##[class*="banner-desc"]
@@ -441,6 +441,8 @@ humoruniv.com##[class*="ad_210"]
 humoruniv.com##[class*="ad_bri"]
 humoruniv.com##[class*="ad_main_center"]
 humoruniv.com##[class*="powerlink_ad"]
+ichannela.com##.add_txt_banner
+ichannela.com##.banner_box
 ichannela.com##[class*="adpnut_05aq"]
 ichannela.com##[class*="adress"]
 ichannela.com##[class*="swipe_banner"]
@@ -516,6 +518,7 @@ khan.co.kr,lady.khan.co.kr##[id*="thumb_ad"]
 khan.co.kr,lady.khan.co.kr,sports.khan.co.kr##[class*="ad-type-txt"]
 khan.co.kr,sports.khan.co.kr##[class*="ad-aside-bnr"]
 khan.co.kr,sports.khan.co.kr##[class*="ad-aside-btm-a"]
+kmib.co.kr##.ad_wrap
 kookje.co.kr##[class*="flow_banner_left"]
 kookje.co.kr##[class*="flow_banner_right"]
 kookje.co.kr##[id*="flow_banner_left"]
@@ -576,10 +579,13 @@ m.cafe.daum.net###ad_wrapper
 m.cafe.daum.net##.banner_wrapper
 m.cafe.naver.com##.newHome_smart_banner
 m.cafe.naver.com##[id^="sc_articles_ad_wrap_"]
+m.dailian.co.kr##[data-ad-slot]
 m.danawa.com##.box__banner
 m.danawa.com##.main_mid_banner
 m.daum.net##.mtop_adfit
 m.dcinside.com##.pwlink
+m.ddaily.co.kr##.adsbygoogle
+m.ddaily.co.kr##.wcms_banner
 m.edaily.co.kr##.m_ct_banner
 m.entertain.naver.com###article_office_bottom_ad_banner
 m.entertain.naver.com###news_end_bottom_ad_banner
@@ -616,6 +622,8 @@ m.sportsseoul.com,sportsseoul.com##[class*="ad-center"]
 m.stock.naver.com##[id^="ad_home_banner_"]
 m.stock.naver.com##[id^="ad_investment_flashnews_banner_"]
 m.todayhumor.co.kr##.adsbygoogle
+m.wikitree.co.kr###div-gpt-ad-1572847067345-0
+m.wikitree.co.kr###div-gpt-ad-1576052002057-0
 m.wowtv.co.kr,wowtv.co.kr##[class*="box-banner"]
 mediatoday.co.kr##[class*="ad-template"]
 mediatoday.co.kr##[class*="ad-view"]
@@ -696,6 +704,7 @@ mt.co.kr##[class*="m_ads_9"]
 mt.co.kr##[class*="m_buttom_ads_area"]
 mt.co.kr##[class*="m_top_ads_area"]
 mt.co.kr##[class*="swiper_ads"]
+munhwa.com##.adfork_slide_banner
 munhwa.com##.bottom-banner-area
 munhwa.com##.top-banner
 munhwa.com##[class*="ad-middle-01"]
@@ -756,6 +765,7 @@ naver.com##[class*="snb_banner_list__type"]
 naver.com##[class*="topbannerflicking_top_banner_flicking__ormm4"]
 naver.com##[class*="topbanneritem_top_banner_item__qiz7i"]
 news.daum.net##[data-ad-unit]
+news.kbs.co.kr###kbs-banner-250
 news.nate.com###ad_sponsorBar
 news.nate.com###ad_sponsorObj
 news.nate.com###newsMainBanner
@@ -839,6 +849,9 @@ seoul.go.kr##[class*="main_banner"]
 seoul.go.kr##[class*="special200th_banner"]
 sisain.co.kr##[id*="fix-banner"]
 snulife.com##[id^="div-gpt-ad-"]
+sports.donga.com##.aside_banner
+sports.donga.com##.trc-content-sponsored
+spotvnews.co.kr##.trc-content-sponsored
 spotvnews.co.kr##[class*="ad-close-btn"]
 spotvnews.co.kr##[class*="ad-code-id"]
 spotvnews.co.kr##[class*="ad-template"]
@@ -902,6 +915,11 @@ wanted.co.kr##[class*="banneritem_banneritem__content__qu2gf"]
 wanted.co.kr##[class*="banneritem_banneritem__s8dbg"]
 web.joongna.com##.adsbygoogle
 webtoon.kakao.com##[data-ad-unit]
+wikitree.co.kr##.floating_banner
+wikitree.co.kr##.floating_banner_item
+xportsnews.com##.adfork_slide_banner
+xportsnews.com##.adsbygoogle
+xportsnews.com##.dable-640x360
 yes24.com##[class*="ad_girl"]
 yes24.com##[class*="ad_search_bottom"]
 yes24.com##[class*="ad_searchbar"]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T02:48:56Z",
+  "generatedAt": "2026-05-10T03:27:00Z",
   "metadata": {
     "title": "Gugu Web Auto Protection Companion",
     "description": "First-party companion list tuned for Gugu Web Auto Protection runtime assists.",
@@ -11,20 +11,20 @@
   },
   "ruleCounts": {
     "network": 140,
-    "cosmetic": 750,
+    "cosmetic": 768,
     "comments": 21,
-    "total": 890,
-    "lineCount": 919
+    "total": 908,
+    "lineCount": 937
   },
   "configStats": {
     "networkExtraRules": 52,
     "autoNetworkExtraRules": 51,
-    "cosmeticHostScopedRules": 724,
+    "cosmeticHostScopedRules": 742,
     "autoCosmeticHostScopedRules": 39
   },
   "checksum": {
-    "sha256": "0d0872538fbf1f4e055ea0b9a7a5d66f9b9376dc482c44a176e0540842f253ba",
-    "bytes": 49999
+    "sha256": "58a1d52fd045ec7821b25a0fd2709ea00a52ca6e0533022cb96c7ef9273f33db",
+    "bytes": 50587
   },
   "deployment": {
     "rawMainURL": "https://raw.githubusercontent.com/Beonjida/gugu_filter/main/gugu-web-auto-protection-companion.txt"
