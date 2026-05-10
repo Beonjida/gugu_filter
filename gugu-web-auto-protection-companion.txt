@@ -626,6 +626,8 @@ m.dailian.co.kr##[data-ad-slot]
 m.danawa.com##.box__banner
 m.danawa.com##.main_mid_banner
 m.daum.net##.mtop_adfit
+m.dcinside.com###div_adnmore_area
+m.dcinside.com###div_adnmore_area_banner
 m.dcinside.com##.pwlink
 m.ddaily.co.kr##.adsbygoogle
 m.ddaily.co.kr##.wcms_banner
